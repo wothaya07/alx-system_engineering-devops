@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -iname '*.gif' -printf '%f\n' | while read file; do basename "$file" '.gif'; done | sort -f
