@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Input string with c and C characters" | tr -d -s 'cC'
