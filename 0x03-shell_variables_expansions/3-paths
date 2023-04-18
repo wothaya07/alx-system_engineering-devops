@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -oE '[0-9]+' PATH | wc -l
+$ ls -lR | grep ^d | wc -l
