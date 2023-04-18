@@ -1,3 +1,2 @@
 #!/bin/bash
 grep -oE '[0-9]+' PATH | wc -l
-
